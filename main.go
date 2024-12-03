@@ -9,7 +9,7 @@ import (
 
 func main() {
 	sc := bufio.NewScanner(os.Stdin)
-	fmt.Println("Введите текст:")
+	fmt.Println("Введите тексты:")
 	for sc.Scan() {
 		txt := sc.Text()
 		calculator.Calc(txt)
