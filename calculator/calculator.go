@@ -37,7 +37,7 @@ func Calc(str string) {
 		result = strings.Repeat(part[0], n)
 	}
 	if len(result) > 40 {
-		fmt.Printf("%.40s ...", fmt.Sprintf("%#v", result))
+		fmt.Printf("%.41s ...", fmt.Sprintf("%#v", result))
 	} else {
 		fmt.Printf("%#v", result)
 	}
